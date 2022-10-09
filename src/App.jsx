@@ -1,13 +1,12 @@
 import Topbar from "./components/topbar/Topbar";
 import Intro from "./components/intro/Intro";
-import Contact from "./components/contact/Contact";
-import Experience from "./components/experience/Experience";
+// import Contact from "./components/contact/Contact";
+// import Experience from "./components/experience/Experience";
+// import Blog from "./components/blog/Blog";
 import Projects from "./components/projects/Projects";
-
+import Menu from "./components/menu/Menu";
 import "./app.scss"
 import { useState } from "react";
-import Menu from "./components/menu/Menu";
-import Blog from "./components/blog/Blog";
 
 function App() {
 
@@ -20,9 +19,9 @@ function App() {
       <div className="sections">
         <Intro />
         <Projects />
-        <Experience />
+        {/* <Experience />
         <Blog />
-        <Contact />
+        <Contact /> */}
       </div>
     </div>
   );

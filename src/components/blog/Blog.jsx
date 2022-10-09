@@ -3,7 +3,7 @@ import './blog.scss'
 
 function Blog() {
   return (
-    <div id={menuItems.blog.id} className='blog'>
+    <div className='blog' id={menuItems?.blog?.id}>
       Blog
     </div>
   )

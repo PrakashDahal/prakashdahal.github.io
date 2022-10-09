@@ -7,17 +7,17 @@ export const menuItems = {
         id: 'projects',
         name: 'Projects',
     },
-    experience: {
-        id: 'experience',
-        name: 'Experience',
-    },
-    blog: {
-        id: 'blog',
-        name: 'Blog',
-    },
-    contact: {
-        id: 'contact',
-        name: 'Contact',
-    },
+    // experience: {
+    //     id: 'experience',
+    //     name: 'Experience',
+    // },
+    // blog: {
+    //     id: 'blog',
+    //     name: 'Blog',
+    // },
+    // contact: {
+    //     id: 'contact',
+    //     name: 'Contact',
+    // },
 
 }

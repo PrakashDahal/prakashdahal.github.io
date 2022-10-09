@@ -3,7 +3,7 @@ import './experience.scss'
 
 function Experience() {
   return (
-    <div className='experience' id={menuItems.experience.id}>
+    <div className='experience' id={menuItems?.experience?.id}>
     </div>
   )
 }

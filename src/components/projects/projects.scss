@@ -2,7 +2,6 @@
 
 .projects {
     background-color: $babyWhite;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -13,7 +12,7 @@
     }
 
     ul {
-        margin: 10px;
+        margin: 30px;
         padding: 0;
         list-style: none;
         display: flex;
@@ -27,22 +26,56 @@
         flex-wrap: wrap;
 
         .item {
-            width: 220px;
-            height: 150px;
+            width: 250px;
+            height: 200px;
             border-radius: 20px;
-            margin: 10px 20px;
+            margin: 10px;
             display: flex;
             align-items: center;
             justify-content: center;
             color: $paleWhite;
             position: relative;
             transition: all 0.5 ease;
-            cursor: pointer;
 
-            h3 {
+            .details {
                 position: absolute;
-                font-size: 20px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 0 5px;
+
+                .details-title {
+                    h3 {
+                        font-size: 20px;
+                        margin-bottom: 10px;
+                    }
+                }
+
+                .details-buttons {
+                    a {
+                        color: inherit;
+                        text-decoration: none;
+
+                        button {
+                            cursor: pointer;
+                            background-color: $darkOrange;
+                            border: none;
+                            border-radius: 5px;
+                            width: auto;
+                            color: $white;
+                            padding: 10px;
+                            margin: 10px;
+
+                            h4 {
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+
             }
+
 
             img {
                 width: 100%;
@@ -53,11 +86,16 @@
 
             &:hover {
                 background-color: $mainColor;
+
                 img {
                     opacity: 0.3;
                     z-index: 0;
                 }
             }
+        }
+
+        .no-data {
+            margin: 20px;
         }
 
     }
