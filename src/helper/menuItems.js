@@ -3,21 +3,21 @@ export const menuItems = {
         id: 'intro',
         name: 'Home',
     },
+    projects: {
+        id: 'projects',
+        name: 'Projects',
+    },
     experience: {
         id: 'experience',
         name: 'Experience',
     },
-    projects: {
-        id: 'projects',
-        name: 'Projects',
+    blog: {
+        id: 'blog',
+        name: 'Blog',
     },
     contact: {
         id: 'contact',
         name: 'Contact',
     },
-    blog: {
-        id: 'blog',
-        name: 'Blog',
-    }
-    
+
 }

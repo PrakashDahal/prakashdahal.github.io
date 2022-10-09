@@ -24,7 +24,7 @@ function Intro() {
             </div>
           </div>
 
-          <a href={`#${menuItems.experience.id}`}>
+          <a href={`#${menuItems.projects.id}`}>
             <KeyboardDoubleArrowDownIcon className='icon' />
           </a>
         </div>
