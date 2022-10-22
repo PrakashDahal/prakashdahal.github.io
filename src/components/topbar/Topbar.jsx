@@ -1,8 +1,8 @@
 import './topbar.scss'
-import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import MailIcon from '@mui/icons-material/Mail';
-import { Tooltip } from '@mui/material';
+// import GitHubIcon from '@mui/icons-material/GitHub';
+// import LinkedInIcon from '@mui/icons-material/LinkedIn';
+// import MailIcon from '@mui/icons-material/Mail';
+// import { Tooltip } from '@mui/material';
 
 function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -17,7 +17,7 @@ function Topbar({ menuOpen, setMenuOpen }) {
         </div>
 
         <div className="right">
-          <div className="item-container">
+          {/* <div className="item-container">
             <Tooltip title="LinkedIn">
               <a href="https://www.linkedin.com/in/dahal-prakash-1720/" target="_blank" rel="noreferrer">
                 <LinkedInIcon className='icon' />
@@ -37,8 +37,8 @@ function Topbar({ menuOpen, setMenuOpen }) {
               <MailIcon className='icon' />
             </a>
             </Tooltip>
-          </div>
-          <a href="#intro" className='logo'>PD</a>
+          </div> */}
+          <a href="#intro" className='logo'>Prakash Dahal</a>
         </div>
 
       </div>

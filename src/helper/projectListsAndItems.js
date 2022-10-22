@@ -7,10 +7,10 @@ export const projectList = {
         id: 'learningProjects',
         title: 'Learning Projects'
     },
-    automation: {
-        id: 'automation',
-        title: 'Automation (tests)'
-    },
+    // automation: {
+    //     id: 'automation',
+    //     title: 'Automation (tests)'
+    // },
     mobileApps: {
         id: 'mobileApps',
         title: 'Mobile Apps'
@@ -42,22 +42,22 @@ export const projectItems = {
             sourceCode: 'https://github.com/PrakashDahal/change-bacckground-color/'
 
         },
-        {
-            id: 'lightDarkMode',
-            img: 'assets/projectImages/darkMode.png',
-            title: 'Dark and Light Mode',
-            demoUrl: 'https://prakashdahal.github.io/light-dark-mode/',
-            sourceCode: 'https://github.com/PrakashDahal/light-dark-mode/'
+        // {
+        //     id: 'lightDarkMode',
+        //     img: 'assets/projectImages/darkMode.png',
+        //     title: 'Dark and Light Mode',
+        //     demoUrl: 'https://prakashdahal.github.io/light-dark-mode/',
+        //     sourceCode: 'https://github.com/PrakashDahal/light-dark-mode/'
 
-        },
-        {
-            id: 'calculator',
-            img: 'assets/projectImages/converter.png',
-            title: 'Converter and Calculator',
-            demoUrl: 'https://prakashdahal.github.io/react-calculator/',
-            sourceCode: 'https://github.com/PrakashDahal/react-calculator/'
+        // },
+        // {
+        //     id: 'calculator',
+        //     img: 'assets/projectImages/converter.png',
+        //     title: 'Converter and Calculator',
+        //     demoUrl: 'https://prakashdahal.github.io/react-calculator/',
+        //     sourceCode: 'https://github.com/PrakashDahal/react-calculator/'
 
-        },
+        // },
         {
             id: 'threejsFirstAnimation',
             img: 'assets/projectImages/first3js.png',
@@ -67,16 +67,16 @@ export const projectItems = {
 
         },
     ],
-    automation: [
-        {
-            id: 'cypressPracticeSite',
-            img: 'assets/projectImages/cypressTest.png',
-            title: 'Cypress Practice Site',
-            demoUrl: 'https://prakashdahal.github.io/cypressTest/',
-            sourceCode: 'https://github.com/PrakashDahal/cypressTest/'
+    // automation: [
+    //     {
+    //         id: 'cypressPracticeSite',
+    //         img: 'assets/projectImages/cypressTest.png',
+    //         title: 'Cypress Practice Site',
+    //         demoUrl: 'https://prakashdahal.github.io/cypressTest/',
+    //         sourceCode: 'https://github.com/PrakashDahal/cypressTest/'
 
-        },
-    ],
+    //     },
+    // ],
     mobileApps: [
         {
             id: 'saverApp',
