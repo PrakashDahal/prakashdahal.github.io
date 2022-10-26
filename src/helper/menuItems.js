@@ -11,10 +11,10 @@ export const menuItems = {
     //     id: 'experience',
     //     name: 'Experience',
     // },
-    // blog: {
-    //     id: 'blog',
-    //     name: 'Blog',
-    // },
+    blog: {
+        id: 'blog',
+        name: 'Blog',
+    },
     contact: {
         id: 'contact',
         name: 'Contact',
