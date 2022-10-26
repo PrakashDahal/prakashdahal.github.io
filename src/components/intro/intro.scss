@@ -102,7 +102,7 @@
 
 
     .social-links {
-        background-color: rgba($mainColor, 0.3);
+        background-color: rgba($mainColor, 0.2);
         min-height: 8rem;
         min-width: 2.5rem;
         position: fixed;
@@ -116,10 +116,11 @@
         border-radius: 1rem 0 0 1rem;
 
         .icon {
+            color: $mainColor;
             font-size: 30px;
             margin: 0.5rem;
         }
-
+        
         a {
             color: inherit;
             text-decoration: none;

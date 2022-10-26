@@ -15,9 +15,9 @@ export const menuItems = {
     //     id: 'blog',
     //     name: 'Blog',
     // },
-    // contact: {
-    //     id: 'contact',
-    //     name: 'Contact',
-    // },
+    contact: {
+        id: 'contact',
+        name: 'Contact',
+    },
 
 }
