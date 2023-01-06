@@ -15,10 +15,10 @@ export const projectList = {
         id: 'mobileApps',
         title: 'Mobile Apps'
     },
-    otherProjects: {
-        id:'otherProjects',
-        title: 'Extra Projects'
-    }
+    // otherProjects: {
+    //     id:'otherProjects',
+    //     title: 'Extra Projects'
+    // }
 }
 
 

@@ -14,25 +14,28 @@ function Intro() {
 
       <div className="left">
         <div className="wrapper">
-          <h2>Hello, I am</h2>
-          <h1>Prakash Dahal</h1>
+          <div className="wrapper-container">
+            <h2>Hello, I am</h2>
+            <h1>Prakash Dahal</h1>
 
-          <div className="profession-title">
-            <div className="profession-title-wrapper">
-              <div className="profession-title-item">
-                Front-End Developer
-              </div>
-              <div className="profession-title-item">
-                Back-End Developer
-              </div> <div className="profession-title-item">
-                Automation Engineer (Cypress)
+            <div className="profession-title">
+              <div className="profession-title-wrapper">
+                <div className="profession-title-item">
+                  Automation Engineer (Cypress)
+                </div>
+                <div className="profession-title-item">
+                  Front-End Developer
+                </div>
+                <div className="profession-title-item">
+                  Back-End Developer
+                </div>
               </div>
             </div>
-          </div>
 
-          <a href={`#${menuItems.projects.id}`}>
-            <KeyboardDoubleArrowDownIcon className='icon' />
-          </a>
+            <a href={`#${menuItems.projects.id}`}>
+              <KeyboardDoubleArrowDownIcon className='icon' />
+            </a>
+          </div>
         </div>
       </div>
       <div className="right">
