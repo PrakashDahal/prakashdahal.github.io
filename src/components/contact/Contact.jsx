@@ -15,7 +15,7 @@ function Contact() {
 
   const handleSubmit = (data) => {
     data.preventDefault()
-    emailjs.sendForm('service_z8gs827', 'template_7b2f4ge', formRef.current, '35G4Lv0uI7YyKkUd5')
+    emailjs.sendForm('service_f0cso2r', 'template_7b2f4ge', formRef.current, 'ZdjMjZDY9Y1g_9hp7')
       .then(() => {
         setAlertMessage('Success! Thank you for the message.')
         setAlertColor('success')
