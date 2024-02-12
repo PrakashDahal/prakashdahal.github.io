@@ -3,7 +3,7 @@
 <div class="aside__about">
   <!-- {{ with .logo }}<img class="about__logo" src="{{ . | absURL }}" alt="Logo">{{ end }} -->
   <i class="fa-solid fa-terminal" aria-hidden="true"></i>
-  <h1 class="about__title">{{ .title }}</h1>
+  <h1 class="about__title"> {{ .title }}</h1>
   {{ with .description }}
   <p class="about__description">
     {{ . | markdownify }}
