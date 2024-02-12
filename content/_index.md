@@ -4,7 +4,7 @@
 
 {{<renderImage url="/images/profile.jpeg" alignImg="right" width="50%">}}
 
-> I am **Prakash Dahal**, a dynamic Software Engineer adept at wearing multiple hats, including roles in _QA_, _FE_, and _BE_ domains. Fluent in **JavaScript (Node.js)**, I craft elegant front-end experiences using **React** and **Angular**, while delving into the intricacies of back-end logic with **Node.js** and **Laravel**. As a testing virtuoso, I employ **Cypress**, **Playwright**, and **RestAssured** to meticulously examine each line of code, ensuring robust and bug-free solutions.
+> I am **Prakash Dahal**, a Software Engineer who's explored on different areas of software fields like making things look good on the `Frontend` (that's what we see), and handling the behind-the-scenes stuff i.e. `Backend` and `Testing` out the overall system to maintain the Quality. I like using **JavaScript** for the development as well as testing. I use tools like **Cypress**, **Playwright** for **UI** and **API** automation.
 
 ---
 

@@ -3,10 +3,16 @@ description = "This CV may be a vintage version. :)"
 +++
 
     Prakash Dahal
+  <a target="_blank" href="https://github.com/PrakashDahal">Github</a>
+  <a target="_blank" href="https://www.linkedin.com/in/dahal-prakash-1720/"
+      >LinkedIn</a
+    > 
+  <a target="_blank" href="https://dahalprakash1720.medium.com/">Blog</a>
 
-{{< cvPersonalInfo >}}
 
-<br/>
+<!-- <div style="display:flex; justify-content:center; gap: 3%"> -->
+
+<!-- </div> -->
 
 {{< highlight >}}
 
@@ -38,10 +44,12 @@ description = "This CV may be a vintage version. :)"
 <br/>
 
 > `Software Engineer at Code Himalaya:` <br> _June 2023 - Present_
+
 - Api Automation using REST Assured.
 - Monorepo setup for `API` and `UI` testing in `Cypress`
 
 > `Software Engineer at Cotiviti:` <br> _Jan 2023 - June 2023 (5 months)_
+
 - Examined the QA processes in backend data testing.
 - Explored Playwright automation tool.
 - Explored on the Health sector of the U.S.A.
