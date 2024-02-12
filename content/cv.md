@@ -37,6 +37,10 @@ description = "This CV may be a vintage version. :)"
 <br/>
 <br/>
 
+> `Software Engineer at Code Himalaya:` <br> _June 2023 - Present_
+- Api Automation using REST Assured.
+- Monorepo setup for `API` and `UI` testing in `Cypress`
+
 > `Software Engineer at Cotiviti:` <br> _Jan 2023 - June 2023 (5 months)_
 - Examined the QA processes in backend data testing.
 - Explored Playwright automation tool.
