@@ -1,0 +1,17 @@
+{{ $themeColor := .Get "themeColor" | default "#ebff8788" }}
+
+<style>
+   @import 'colours.css';
+  .highlight {
+    background-color: {{$themeColor}};
+    padding: 0.2em;
+    border-radius: 0.2em;
+    opacity: 0.5;
+    color: black;
+  }
+</style>
+
+
+<span class="highlight">
+   {{ .Inner | safeHTML }}
+</span>

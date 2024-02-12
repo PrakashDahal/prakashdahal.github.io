@@ -1,0 +1,4 @@
+{{ $content := . }}
+{{ $backtickRegex := printf "(?:\\b|\\B)`([^`]+)`(?:\\b|\\B)" }}
+{{ $highlighted := findRE $backtickRegex $content | replaceRE $backtickRegex `<span class="backtick-highlight">$1</span>` }}
+{{ safeHTML $highlighted }}

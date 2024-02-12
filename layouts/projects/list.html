@@ -1,0 +1,32 @@
+{{ define "main" }}
+
+<header class="content__header">
+  <h1>{{ .Title | markdownify }}</h1>
+  <hr />
+  {{ .Content }}
+</header>
+
+{{ range .Pages }}
+<blockquote>
+  <article class="post">
+    <header class="post__header">
+      <a href="{{ .Permalink }}">{{ .Title | markdownify }}</a>
+      {{if .Params.demo}}<span>
+        <a
+          href="{{.Params.demo.url }}"
+          target="_blank"
+          style="color: #ffa07a; text-decoration: none"
+        >
+          ({{.Params.demo.name | default "Demo" }})
+        </a>
+      </span>
+      {{end}}
+    </header>
+
+    <section class="post__summary">{{ .Summary }}</section>
+  </article>
+</blockquote>
+<br />
+{{ end }} {{ end }} {{define "aside" }} {{ if .Params.description }}
+<p>{{ .Params.description }}</p>
+{{ end }} {{ end }}

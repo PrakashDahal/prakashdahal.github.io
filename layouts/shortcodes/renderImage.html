@@ -1,0 +1,8 @@
+<div class="home-img" style="text-align: {{ .Get `alignImg` | default `center` }}; float: right; width:{{ .Get `width` | default `50%` }}">
+  <img
+    src="{{.Get `url` | default `/images/profile.jpeg`}}"
+    alt="Alt text"
+    height="100%"
+    width="100%"
+  />
+</div>

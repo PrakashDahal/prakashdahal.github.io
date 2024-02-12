@@ -1,0 +1,21 @@
+{
+  "colors": [
+    "material",
+    "dracula",
+    "gruvbox-dark",
+    "tender",
+    "base16-dark",
+    "solarized-dark",
+    "tokyo-night-dark",
+
+    "base16-light",
+    "gruvbox-light",
+    "solarized-light",
+    "tokyo-night-light",
+
+    "windows-95",
+    "papercolor-light",
+    "papercolor-dark",
+    "apprentice"
+  ]
+}

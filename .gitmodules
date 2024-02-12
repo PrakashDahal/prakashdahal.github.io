@@ -1,0 +1,6 @@
+[submodule "themes/tailwind"]
+	path = themes/tailwind
+	url = https://github.com/tomowang/hugo-theme-tailwind.git
+[submodule "themes/risotto"]
+	path = themes/risotto
+	url = https://github.com/joeroe/risotto.git

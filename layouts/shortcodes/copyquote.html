@@ -1,0 +1,72 @@
+<style>
+  .copyquote-container {
+    position: relative;
+    padding: 2px;
+    border-radius: 5px;
+  }
+
+  .copy-icon {
+    position: absolute;
+    top: 8px;
+    right: 2px;
+    cursor: pointer;
+    background-color: #282a36; /* Background color from Dracula theme */
+    padding: 5px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+  }
+  .file-name {
+    position: absolute;
+    top: 8px;
+    left: 2px;
+    background-color: #282a36;
+    padding: 5px 10px;
+    border-radius: 3px;
+  }
+
+  .copy-icon:hover {
+    background-color: #44475a; /* Darkened background color on hover */
+  }
+
+  .popup {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #282a36; /* Background color from Dracula theme */
+    color: #bd93f9; /* Text color from Dracula theme */
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+  }
+</style>
+
+<div class="copyquote-container">
+  <span class="copy-icon" onclick="copyToClipboard(this)">📋</span>
+  {{ if .Get "fileName" }}
+  <span class="file-name">{{ .Get "fileName" }}</span>
+  {{ end }}
+  <br />
+  <div class="code">{{- .Inner | markdownify -}}</div>
+</div>
+
+<div class="popup" id="copy-feedback">Copied to clipboard!</div>
+
+<script>
+  function copyToClipboard(element) {
+    let codeContainer = element.parentNode.querySelector(".code");
+    let range = document.createRange();
+    range.selectNode(codeContainer);
+    window.getSelection().removeAllRanges();
+    window.getSelection().addRange(range);
+    document.execCommand("copy");
+
+    // Show feedback popup
+    let popup = document.getElementById("copy-feedback");
+    popup.style.display = "block";
+    setTimeout(function () {
+      popup.style.display = "none";
+    }, 2000);
+
+    window.getSelection().removeAllRanges();
+  }
+</script>
