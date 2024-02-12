@@ -1,0 +1,30 @@
+{{ with .Site.Params.about }}
+
+<div class="aside__about">
+  <!-- {{ with .logo }}<img class="about__logo" src="{{ . | absURL }}" alt="Logo">{{ end }} -->
+  <i class="fa-solid fa-terminal" aria-hidden="true"></i>
+  <h1 class="about__title">{{ .title }}</h1>
+  {{ with .description }}
+  <p class="about__description">
+    {{ . | markdownify }}
+    <i class="far fa-grin-tears" style="font-size: 24px; color: #FFA07A"></i>
+  </p>
+  {{ end }}
+</div>
+{{ end }}
+
+<ul class="aside__social-links">
+  {{ range $item := .Site.Params.socialLinks }}
+  <li>
+    <a
+      href="{{ $item.url }}"
+      target="_blank"
+      rel="me"
+      aria-label="{{ $item.title }}"
+      title="{{ $item.title }}"
+      ><i class="{{ $item.icon }}" aria-hidden="true"></i></a
+    >&nbsp;
+  </li>
+  {{ end }}
+  <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">Download_CV</a>
+</ul>

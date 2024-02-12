@@ -1,0 +1,44 @@
+/* Override this file to customise the theme's CSS for your site */
+
+.cv-title {
+    display: block;
+    border: none;
+    /* margin: 0 0 $spacer-smallest 0; */
+  }
+  
+  .cv-contacts {
+    display: block;
+    text-align: end;
+    /* margin: 0 0 $spacer-smallest 0; */
+  }
+  
+  .cv-experience {
+    /* margin: $spacer-small 0; */
+    border-bottom: 1px solid;
+  
+    @media print {
+      break-after: avoid-page;
+      break-inside: avoid-page;
+    }
+  }
+  
+  .cv-skills {
+    margin: 0;
+    border: none;
+    width: auto;
+  
+    .key {
+      /* padding: 0 $spacer-smallest 0 0; */
+    }
+  
+    .val {
+      /* padding: 0 0 0 $spacer-smallest; */
+      /* font-weight: $font-bold; */
+    }
+  
+    .key,
+    .val {
+      border: none;
+    }
+  }
+  
