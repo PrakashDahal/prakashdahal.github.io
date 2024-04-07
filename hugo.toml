@@ -1,7 +1,7 @@
 baseURL = "http://192.168.1.74:1313/"
 title = "Prakash"
 author = "Prakash"
-copyright = "© Prakash Dahal (Theme from risotto) "
+copyright = "© Prakash Dahal "
 paginate = 3
 languageCode = "en"
 DefaultContentLanguage = "en"
