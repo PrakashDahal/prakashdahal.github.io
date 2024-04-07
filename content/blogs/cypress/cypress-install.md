@@ -9,7 +9,7 @@ tags = [
     "Cypress",
     "Cypress Tutorial"
     ]
-weight = "3"
+weight = "2"
 +++
 
 Automation through Cypress is easy: Installation and Quick start <!--more-->
