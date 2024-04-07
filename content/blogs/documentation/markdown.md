@@ -16,7 +16,7 @@ Markdown is simple and powerful text formatter. I mostly use it for blogging and
 
 ## Overview 
 
-I recently presented about markdown and wanted to share with you too.
+I recently presented about markdown and wanted to share with you too. So here it is.
 
 - It is a Markup language to format text. 
 
@@ -29,7 +29,7 @@ I recently presented about markdown and wanted to share with you too.
   <br />
   <br />
 
-- Different applications have implemented markdown
+- Different applications have implemented markdown like:
   - Slack
   - Trello
   - Github
@@ -85,7 +85,7 @@ If you want to know more about the architecture, <a href="https://pandoc.org/usi
 
 ## Obsidian
 
-Obsidian is a popular note-taking and knowledge management application. It usages markdown. It has some cool features that I like most: `Bidirectional Linking`, `Graphical View` and `Community Plugins`.
+Obsidian is a popular note-taking and knowledge management application. It usages markdown. It has some cool features that I like most are: `Bidirectional Linking`, `Graphical View` and `Community Plugins`.
 
 
 <a href="https://obsidian.md/" target="_blank">Click Here</a> explore more about Obsidian.
