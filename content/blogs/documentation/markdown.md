@@ -65,7 +65,7 @@ pandoc slide.md -o slide.txt
 ```
 {{< /copyquote >}}
 
-To generate a pdf like I have create above, you have to add some theme in it. I have used `beamer` which is based on latex and some theme to give a decent look for the slide.
+To generate a pdf like I have createD above, you have to add some theme in it. I used `beamer`, which is based on latex, and some themes to give a decent look for the slide.
 
 _Note: You may have to install some additional latex dependencies to use beamer_
 
@@ -79,13 +79,13 @@ The simple architecture of Pandoc is:
 
 `[input format] ==reader ==> [Pandoc AST] == writer==> [output format]`
 
-If you want to know more about the architecture, <a href="https://pandoc.org/using-the-pandoc-api.html" target="_blank">Check Official Doc</a>
+If you want to know more about the architecture, <a href="https://pandoc.org/using-the-pandoc-api.html" target="_blank">Check Official Documentation</a>
 
 ---
 
 ## Obsidian
 
-Obsidian is a popular note-taking and knowledge management application. It usages markdown. It has some cool features that I like most are: `Bidirectional Linking`, `Graphical View` and `Community Plugins`.
+Obsidian is a popular note-taking and knowledge management application. It has some cool features like: `Bidirectional Linking`, `Graphical View` and `Community Plugins`.
 
 
 <a href="https://obsidian.md/" target="_blank">Click Here</a> explore more about Obsidian.
