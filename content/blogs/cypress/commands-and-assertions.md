@@ -10,7 +10,6 @@ tags = [
     "Cypress Tutorial",
     "Automation Testing",
     ]
-weight = "3"
 +++
 
 Automation through Cypress is easy: Five major commands and one assertion <!--more-->

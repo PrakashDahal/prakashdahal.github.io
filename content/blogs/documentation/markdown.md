@@ -8,7 +8,6 @@ tags = [
     "Markdown",
     "Md",
     ]
-weight = "1"
 +++
 
 Markdown is simple and powerful text formatter. I mostly use it for blogging and note taking.

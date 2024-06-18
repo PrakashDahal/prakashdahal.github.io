@@ -11,3 +11,12 @@ Welcome to my personal portfolio! This site serves as a showcase of my work, ski
 ## Feedback
 
 - If you have any feedback, suggestions, or questions, feel free to reach out!
+
+
+## Run
+
+```bash
+hugo server
+``` 
+
+It generally serves in port 1313 -> http://localhost:1313
