@@ -39,7 +39,7 @@ Note: `If you do not want to learn and grow, Stay away from Arch and me`
 
 4. Performance
 
-Another major reason to use arch is <b> performance.</b> Your system performance becomes super fast if you use arch because of this reasons:
+Another major reason to use arch is <b> performance.</b> Your system performance becomes super fast if you use arch because:
 
 - Light weight
 - Minimal design
