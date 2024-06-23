@@ -15,8 +15,19 @@ Welcome to my personal portfolio! This site serves as a showcase of my work, ski
 
 ## Run
 
+### Regular Run
+
 ```bash
 hugo server
 ``` 
 
-It generally serves in port 1313 -> http://localhost:1313
+*Note: It generally serves in port 1313 -> http://localhost:1313*
+
+
+### Run in local IP
+
+```bash
+hugo server --bind <localIP> --baseURL http://<localIP>:<port>
+
+hugo server --bind 192.168.1.1 --baseURL http://192.168.1.1:1313
+```

@@ -24,7 +24,7 @@ palette = "dracula"
 [params.about]
 title = "Prakash Dahal"
 description = "Hey! Want to connect, unless you are ```suspicious```?"
-logo = "images/profile.jpeg"
+logo = "images/profile.jpg"
 
 # Sidebar: social links
 # Available icon sets:
