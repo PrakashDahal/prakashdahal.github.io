@@ -48,7 +48,7 @@ I prefer **ws1 for terminal, ws2 for browsers, ws3 for notes, ws9 for socialize 
 
 ## Development Environment
 
-- **Neovim** is highly customizable code editor. Neovim allows us to write lua which makes configuration very easy. Its extensive plugin ecosystem like `lsp, treesitter, telescope` and **lightning-fast performance** has captivated me.  
+- **Neovim** is highly customizable code editor. Neovim allows us to write lua which makes configuration very easy. Its extensive plugin ecosystem like `lsp, treesitter, telescope` and `lightning-fast performance` has captivated me.  
 
 > Here is my [.dotfile config for nvim](https://github.com/PrakashDahal/.dotfiles/tree/main/nvim)
 
@@ -66,10 +66,9 @@ I prefer **ws1 for terminal, ws2 for browsers, ws3 for notes, ws9 for socialize 
     - `gg` scrolls to the top of the page.
     - `shift+g` scrolls down of the page.
     - `shift+h` goes browser history back.
-    - `shift+j` goes browser history forward.
-    - `shift+k` change browser tab down.
-    - `shift+l` change browser tab up.
+    - `shift+l` goes browser history forward.
+    - `shift+j` change browser tab down.
+    - `shift+k` change browser tab up.
     - `f` shows all clickable links with unique alphabet associated with it.
 
 > Note: This is my setup for now. It has really increased by efficiency to work.
-
